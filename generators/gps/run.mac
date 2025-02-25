@@ -14,16 +14,14 @@
 /event/verbose 0
 /tracking/verbose 1
 
-/gps/particle gamma
-/gps/pos/type Plane
-/gps/pos/shape Square
-/gps/pos/centre 1. 0. 10. cm
-/gps/pos/halfx 2. cm
-/gps/pos/halfy 2. cm
-/gps/ang/type cos
+/gps/particle e-
+/gps/pos/type Point
+/gps/pos/centre 0. 0. -12. cm
+/gps/ang/type iso
+/gps/ang/mintheta 170 deg
+
 /gps/ene/type Gauss
-/gps/ene/min 2. MeV
-/gps/ene/max 10. MeV
-/gps/ene/sigma 4. MeV
+/gps/ene/mono  40. MeV
+/gps/ene/sigma 2. MeV
 
 /run/beamOn 10
